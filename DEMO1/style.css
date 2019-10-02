@@ -1,0 +1,148 @@
+#menu{
+    position: fixed;
+    width:100%;
+    border-bottom: 3px solid gray;
+    margin-top: -40px;
+    margin-left: -7px;
+}
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+#menu li{
+    display: inline-block;
+    background-color: black;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+    height: 50px;
+    padding: 10px 10px ;
+}
+#menu a:hover{
+background-color: aliceblue;
+color: black;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    top:25px;
+}
+#menu li:hover .dropdown{
+    display: block;
+}
+.caret{
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+#content{
+    width: 1349px;
+    margin-left: -8px;
+    margin-top: 40px;
+}
+#img1{
+    width: 1200px ;
+    height: 750px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#left{
+    float: left;
+    margin-left: 75px;
+}
+#right{
+    float: right;
+    margin-right: 75px;
+}
+#tp {
+    display: inline-block;
+    margin: 10px 5px;
+}
+#hot{
+    display: inline-block;
+    margin:5px;
+}
+#hotcontent{
+    display: inline-block;
+    margin: 10px 5px;
+}
+#bow2{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+#price{
+    margin-left: 120px;
+}
+#pricedc{
+    margin-left: 100px;
+}
+#bow3{
+    margin-left:600px;
+}
+#footer{
+    width: 1349px;
+    background-color: rgb(46, 43, 43);
+    margin-left: -8px;
+    margin-top: 30px;
+}
+#footera{
+    margin-left: 100px;
+    padding-top: 0px;
+    height: 310px;
+}
+#footera1{
+    margin-top: -30px;
+    width: 384px;
+    height: 259px;
+    display: inline-block;
+}
+#footera1 button{
+    border: none;
+    background-color: rgb(46, 43, 43);
+    color: rgba(79, 135, 238, 0.76);
+    display: block;
+}
+#footera1 button:hover{
+    color: rgb(0, 140, 255);
+    text-decoration: underline;
+}
+#footera1 a{
+color:rgb(148, 144, 139);
+text-decoration: none;
+font-size: 16px;
+}
+#footera1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#f1{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#footerb{
+    padding-bottom: 30px;
+}
+#footerb1{
+    margin-left: 100px;
+    width:1000px;
+    float: left;
+}
+#footerb1 p{
+color: aliceblue;
+}
