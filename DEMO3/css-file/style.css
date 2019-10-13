@@ -4,10 +4,9 @@
     z-index: 1000;
     background-color: white;
     width: 100%;
-    height: 90px;
-    margin-left: -8px;
-    margin-bottom: 10px;
-    margin-top: -10px;
+    height: 100px;
+    top:0px;
+    left:0px;
 }
 .logo{
     margin-top: 20px;
@@ -213,7 +212,7 @@ padding: 50px 50px;
   font-size: 20px;
 }
 #btn-about{
-  border-radius: 5px;
+  border-radius: 20px;
   width: 150px;
   height: 50px;
   margin-left: 230px;
@@ -240,7 +239,7 @@ padding: 50px 50px;
   margin: 15px 32px;
 }
 .hotproduct{
-  background-color: rgb(241, 223, 225);
+  background-color: rgb(224, 188, 192);
   width: 1349px;
   margin-left: -8px;
   margin-top: -100px;
@@ -267,41 +266,82 @@ button[name="btn-info"]
       margin-left: 71px;;
       text-align: center;
       font-size: 25px;
+      background-color: rgb(128, 126, 126);
   }
   button[name="btn-info"] a{
       text-decoration: none;
-      color: purple;
+      color: black;
   }
+  button[name="btn-info"]:hover
+{
+  background-color: rgb(187, 184, 184);
+}
 .new-list{
   background-image: url("../images/content21.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% 560px;
-  width: 1289px;
-  height: 560px;
-  margin-top: -0px;
+  background-size: 100% 610px;
+  width: 1349px;
+  height: 610px;
+  margin-top: -20px;
   margin-left: -8px;
-  padding: 30px;
+  padding: 20px;
   opacity: 0.9;
 }
-.new{
+.new-item{
   float: left;
-  width:350px;
-  margin: 20px 15px;
-  padding: 10px;
+  text-align: center;
+  width: 350px;
+  height: 400px;
+  padding: 30px 10px;
 }
-.new:first-of-type{
-  margin-left: 55px;
+.new-item:first-of-type{
+  margin-left: 80px;
+}
+.new-item:hover{
+  border: 2px solid rgb(231, 164, 172);
+  width: 380px;
+  height: 400px;
+  transition: width 1s;
+}
+.new-item:hover button[name="btn-info-new"]{
+  display: block;  
+}
+.new-item img {
+  transition: all 1s ease;
+  }
+  .new-item:hover img {
+  transform: scale(1.05,1.05);
+  }
+  button[name="btn-info-new"]
+  {
+      display: none;
+      border-radius: 15px;
+      margin-left: 120px;
+      margin-top: 25px;
+      text-align: center;
+      font-size: 25px;
+      background-color: rgb(128, 126, 126);
+  }
+  button[name="btn-info-new"] a{
+    text-decoration: none;
+    color: black;
+}
+button[name="btn-info-new"]:hover
+{
+  background-color: rgb(187, 184, 184);
 }
 .footer{
+  margin-left: -8px;
+  margin-top: -40px;
 text-align: center;
 background-color: white;
 width: 1349px;
-margin-top: -60px;
-margin-left: -8px;
+height: 210px;
 }
 .footer-item{
 float: left;
 width: 250px;
+height: 200px;
 margin: 0px 10px;
 }
 .footer-item:first-of-type{

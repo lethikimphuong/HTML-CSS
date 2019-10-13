@@ -166,114 +166,29 @@ opacity: 1;
 font-size: 30px;
 }
 .content3{
-    background-image: url("../images/info-pro.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 750px;
-    width: 1349px;
-    height: 750px;
+    background-image: url("../images/bgr.jpg");
+    height: 900px;
     margin-top: 0px;
     margin-left: -8px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1349px;
+    padding: 50px 0px;
 }
-.div-slide{
-    float: left;
-    margin-left: 150px;
-    margin-top: 100px;
-    height: 500px;
-    width: 400px;
-    position: relative;
-    overflow: hidden; 
-    text-align: center;
-  }
-    
-  .menuu {
-    position: absolute;
-    z-index: 900;
-    width: 100%;
-    bottom: 10px;
-  }
-  #slide-dot-1,#slide-dot-2,#slide-dot-3,#slide-dot-4{
-    z-index: 900;
-    width: 16px;
-    height: 16px;
-    margin-top:520px;
-    display: none;
-  }
-  .menuu label:hover{
-    background: rgb(216, 61, 61);
-  }
-  .menuu label {
-    cursor: pointer;
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: palevioletred;;
-    border-radius: 50px;
-  }
-  .slide {
-    width: 200px;
-    height: 250px;
-    position: absolute;
-    top: 40px;
-    margin-left: 85px;
-    left: 100%;
-    padding: 8em 1em 0;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-    
-  [id^="slide"]:checked + .slide {
-    left: 0;
-    z-index: 100;
-    transition: left .65s ease-out;
-  }
-    
-  .slide-1 {
-    background-image: url("../images/c6.png");
-  }
-  .slide-2 {
-    background-image: url("../images/c61.PNG");
-  }
-  .slide-3 {
-    background-image: url("../images/c62.PNG");
-  }
-  .slide-4 {
-    background-image: url("../images/c63.PNG");
-  }
-.div-info{
-    float: right;
-width: 500px;
-height: 500px;
-margin-right: 200px;
-margin-top: 120px;
+.content3 .content3-item{
+    width: 900px;
+    margin-left: 450px;
 }
-  table{
-text-align: left;
-margin-left: 30px;
-font-size: 18px;
-  }
-  table th{
-      padding-right: 100px;
-      padding-top: 20px;
-      width: 150px;
-  }
-  button[name="btn-buy"]
-  {
-      margin-top: 20px;
-      border-radius: 15px;
-      margin-left: 72px;;
-      text-align: center;
-      font-size: 25px;
-  }
-  button[name="btn-buy"] a{
-      text-decoration: none;
-      color: rgb(233, 27, 223);
-  }
+.content3 .des{
+    text-indent: 1.5em;
+    font-size: 20px;
+}
   .footer{
     text-align: center;
-    background-color: rgb(180, 20, 20);
+    background-color: white;
     width: 1349px;
-    height: 250px;
-    margin-top: 800px;
+    height: 220px;
+    margin-top: 0px;
     margin-left: -8px;
     }
     .footer-item{
