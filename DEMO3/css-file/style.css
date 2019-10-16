@@ -34,7 +34,7 @@ margin-left: 20px;
 }
 .topmenu ul{
     list-style: none;
-    margin-left: 660px;
+    margin-left: 640px;
 }
 #bottommenu ul{
     list-style: none;
@@ -280,7 +280,7 @@ button[name="btn-info"]
   background-image: url("../images/content21.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 610px;
-  width: 1349px;
+  width: 1310px;
   height: 610px;
   margin-top: -20px;
   margin-left: -8px;
